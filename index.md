@@ -12,4 +12,4 @@ As knowledge graph development (and in particular the development of their schem
 ## Organizers
 * Cogan Shimizu
 * Torsten Hahmann
-* Hande McGinty Kücük
+* Hande Kücük McGinty
