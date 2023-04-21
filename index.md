@@ -8,10 +8,10 @@ As knowledge graph development (and in particular the development of their schem
 
 ## Schedule (3hrs)
 1. Introduction (20 minutes)
-2. Modular Ontology Modeling (40 minutes)
-3. Domain Reference Ontology Design (40 minutes)
-4. KNowledge Acquisition and Representation Methodology (40 minutes)
-5. Comparative Analysis (40 minutes)
+2. [Modular Ontology Modeling](./sessions/momo.md) (40 minutes)
+3. [Domain Reference Ontology Design](./sessions/drod.md) (40 minutes)
+4. [KNowledge Acquisition and Representation Methodology](./sessions/knarm.md] (40 minutes)
+5. Comparative Analysis & Discussion (40 minutes)
 
 ## Organizers
 * Cogan Shimizu
