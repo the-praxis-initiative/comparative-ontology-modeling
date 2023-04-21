@@ -2,6 +2,7 @@
 
 ## Layout
 * `data/` -- contains pointers to data used in this tutorial
+* `sessions/` -- contains the individual (sub-)tutorials
 * `use-cases/` -- contains descriptions of the use-cases for this tutorial
 * `index.md` -- the front page for the tutorial
 * `README.md` -- this page
