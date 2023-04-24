@@ -29,7 +29,7 @@ There are some already in that same file.
 - [Measurement](./schemas/measurement)
 7. **Assemble the modules.**<br>
 [All Together](./deliverables/overview.png)
-8. **Review the final product.**
+8. **Review the final product.**<br>
 [Final Schema](./deliverables/final.owl)
 9. **Produce artifacts (e.g., documentation and serialization).**<br>
 [Documentation](./deliverables/documentation.md)
