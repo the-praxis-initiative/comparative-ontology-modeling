@@ -1,8 +1,8 @@
 # Data Directory
 
 ## Layout
-* `pfas/` -- data regarding PFAS, primarily regarding Maine, but also other example data
-* `spatial/` -- data regarding spatial representations of Maine and its administrative sub-regions
+* [`pfas/`](./pfas/) -- data regarding PFAS, primarily regarding Maine, but also other example data
+* [`spatial/`](./spatial) -- data regarding spatial representations of Maine and its administrative sub-regions
 
 ## Additional Pointers to Resources
 * [Maine GeoLibrary Data Catalog](https://www.maine.gov/geolib/catalog.html)
