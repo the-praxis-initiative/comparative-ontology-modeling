@@ -3,6 +3,19 @@
 ## Description
 PFAS are problematic.
 
+## Example Competency Questions
+* What does PFAS stand for?
+* What are PFAS?
+* Is the water in region _R_ contaminated?
+* What constitutes safe exposure to PFAS?
+* How can I mitigate PFAS exposure?
+* Has my water system been contaminated in the past?
+* Where is the most contaminated water system in the state? US? World?
+* Does the the region with the highest contamination have a high cancer incidence?
+* Why are PFAS bad?
+* What impact do PFAS have on my body? 
+* What impact do PFAS have on the environment?
+
 ### Referenced Material
 * [CDC Water Contamination Definitions](https://www.cdc.gov/healthywater/drinking/contamination.html)
 
