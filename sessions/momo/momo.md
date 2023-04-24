@@ -24,9 +24,9 @@ There are some already in that same file.
 - [Reading](./schema-diagrams/reading)
 - [Measurement](./schema-diagrams/measurement)
 6. **Systematically axiomatize each module.**
-- [Region](./schemas/region)
-- [Reading](./schemas/reading)
-- [Measurement](./schemas/measurement)
+- [Region](./schemas/region-module.owl)
+- [Reading](./schemas/reading-module.owl)
+- [Measurement](./schemas/measurement-module.owl)
 7. **Assemble the modules.**<br>
 [All Together](./deliverables/overview.png)
 8. **Review the final product.**<br>
