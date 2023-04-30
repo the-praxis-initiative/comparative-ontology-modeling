@@ -34,11 +34,16 @@ Here are some convenient links to tools, resources, and examples to use while im
 * [Drug Target Ontology](https://bioportal.bioontology.org/ontologies/DTO)
 * [FDC Ontology](https://fdc.nal.usda.gov/)
 
+### Tools that use ontologies using KNARM ###
+* [BioHarmony Annotator](https://www.bioassayexpress.com/)
+* [OntoloBridge](https://github.com/OntoloBridge/ontolobridge-project)
+* [Pistoia Alliance DataFAIRy Project](https://www.pistoiaalliance.org/projects/current-projects/datafairy-bioassay-annotation/)
+
 
 ### Tools
 
 * [Protégé](https://protege.stanford.edu/) -- for file generation and manual steps
-* [Robot](https://comodide.com/) -- a command-line tool for creating .owl files in a semi-automated way.
+* [Robot](http://robot.obolibrary.org/report) -- a command-line tool for creating .owl files in a semi-automated way.
 * [Neo4j](https://neo4j.com/) -- for the graph database backend
 
 ### Educational Material
