@@ -25,11 +25,13 @@ This is already done for us: [PFAS Use Case](../../use-cases/contamination-use-c
 4. **Refine your competency questions.**<br>Rephrase vague questions<br>Elaborate underspecified questions<br>
 Decompose very complex questions
 
-5. **Use a coarse analysis to separate concepts from relationships and to gain clarity about the nature of the concepts.**<br>
-This involves thinking of the concepts in terms of top-level ontological distinctions between, for example, material and immaterial objects (including information), objects and locations, objects vs. events/processes, objects and their dispositions, etc.  
+5. **Separate concepts (classes) from relationships (object properties) and attributes (data properties).**<br>
 
-5. **Identify the most central concept(s) and start relating them to other concepts.**<br>
+6. **Analyze terms using a coarse ontological analysis to gain clarity about the nature of the concepts.**<br>
+This involves thinking of the concepts in terms of top-level ontological distinctions between, for example, material and immaterial objects (including information), objects and locations, objects vs. events/processes, objects and their dispositions, etc.    
+
+7. **Identify the most central concept(s) and start relating them to other concepts.**<br>
 This is essentially developing a high-level Entity-Relationship model for the domain. 
 
-6. **Refine the central concepts taxonomically.**<br>
+8. **Refine the central concepts taxonomically.**<br>
 We want to not just build a taxonomy, but use this as an exercise to think about the _definiens_, that is, the criteria that distinguish one concept (class) from its more general concepts and its sister concepts
