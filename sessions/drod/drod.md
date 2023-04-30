@@ -22,7 +22,9 @@ This is already done for us: [PFAS Use Case](../../use-cases/contamination-use-c
 
 3. **Identify key terms (concepts and relationships).**<br>Try to generalize them as appropriate for the domain.
 
-4. **Refine (by rephrasing, elaborating or deconstructing) the compentency questions.**
+4. **Refine your compentency questions.**<br>Rephrase vague questions<br>Elaborate underspecified questions<br>
+Decompose very complex questions
+
 
 5. **Use a coarse analysis to separate concepts from relationships and to gain clarity about the nature of the concepts.**<br>
 This involves thinking of the concepts in terms of top-level ontological distinctions between, for example, material and immaterial objects (including information), objects and locations, objects vs. events/processes, objects and their dispositions, etc.  
