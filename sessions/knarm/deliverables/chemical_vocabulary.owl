@@ -1,0 +1,799 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/handemcginty/ontologies/2023/parameter_module.owl/"
+     xml:base="http://www.semanticweb.org/handemcginty/ontologies/2023/parameter_module.owl/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/handemcginty/ontologies/2023/parameter_module.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000">
+        <rdfs:label xml:lang="en">chemical entities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01001 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01001">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>HFPO-DA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01002 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01002">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFODA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01003 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01003">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFOS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010031 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010031">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>9CL-PF3ONS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010032 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010032">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>11CL-PF3OUDS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010033 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010033">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>SUM OF 5 PFAS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010034 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010034">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>&quot;10:2 FTS_A&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010035 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010035">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>N-EtFOSE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010036 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010036">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>N-MEFOSE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010037 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010037">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>N-MEFOSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010038 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010038">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>N-ETFOSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010039 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010039">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFDOS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01004 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01004">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFUNDA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010040 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010040">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>6:2 FTS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010041 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010041">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>8:2 FTS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010042 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010042">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFHXS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010043 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010043">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010044 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010044">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010045 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010045">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFTRDA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010046 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010046">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFHPA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010047 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010047">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFDOA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010048 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010048">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFUNDA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010049 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010049">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFOA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01005 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01005">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>N-MeFOSAA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010050 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010050">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010051 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010051">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFDA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010052 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010052">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFHXA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010053 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010053">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFBA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010054 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010054">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFPEA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010055 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010055">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFBS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010056 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010056">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>4:2 FTS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010057 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010057">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>ADONA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010058 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010058">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>9CL-PF3ONS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010059 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010059">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFEES_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01006 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01006">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFPEA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010060 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010060">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFDH_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010061 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010061">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFMP_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010062 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010062">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFMB_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010063 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010063">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFHPS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010064 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010064">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFPES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010065 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010065">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFDOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010066 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010066">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFTEA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010067 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010067">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFNS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010068 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010068">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>11CL-PF3OUDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010069 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010069">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>3:3 FTC_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01007 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01007">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFPES_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010070 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010070">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>7:3 FTC_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010071 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010071">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>5:3 FTC_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010072 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010072">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>TOTAL PFCA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010073 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010073">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFRPS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010074 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010074">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFECHS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010075 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010075">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>N-etFOSSA_BR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010076 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010076">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>N-etFOSSA_L</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010077 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010077">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>N-MeFOSSA_BR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010078 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010078">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>N-MeFOSSA_L</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010079 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010079">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFHXS_A_BR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01008 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01008">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>6:2 FTS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010080 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010080">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFHXS_A_L</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010081 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010081">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFOS_A_BR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010082 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010082">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFOS_A_L</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010083 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010083">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFOA_A_BR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010084 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010084">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFOA_A_L</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_010085 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_010085">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>FHXSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01009 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01009">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>N-EtFOSAA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01010 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01010">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFHXA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01011 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01011">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFDOA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01012 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01012">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFOA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01013 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01013">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFDA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01014 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01014">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFDS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01015 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01015">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFHXS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01016 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01016">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFBA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01017 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01017">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFBS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01018 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01018">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFHPA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01019 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01019">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFHPS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01020 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01020">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFNA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01021 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01021">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFTEA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01022 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01022">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>8:2 FTS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01023 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01023">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFHXDA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01024 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01024">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFNS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01025 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01025">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFTRIA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01026 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01026">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFOSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01027 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01027">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>4:2 FTS_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01028 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01028">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>ADONA_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01029 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01029">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>PFOA + PFOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_01030 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_01030">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00000000000000000000"/>
+        <rdfs:label>SUM OF 6 PFAS</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

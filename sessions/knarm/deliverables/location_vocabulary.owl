@@ -1,0 +1,5299 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/handemcginty/ontologies/2023/3/locations_module.owl/"
+     xml:base="http://www.semanticweb.org/handemcginty/ontologies/2023/3/locations_module.owl/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/handemcginty/ontologies/2023/3/locations_module.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001">
+        <rdfs:label xml:lang="en">location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_1 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_1">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PIXELLE ANDROSCOGGIN JAY LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_10 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_10">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DEXTER LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_100 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_100">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WINTHROP LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_101 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_101">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NCTAMS LANT DET-SALVAGE AREA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_102 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_102">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MID-COAST SOLID WASTE QUARRY LANDFILL AND TRANSFER STATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_103 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_103">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MIDDLE FORE RIVER - CBFRMR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_104 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_104">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>EAST END BEACH - CBEEEE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_105 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_105">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FAYETTE CENTRAL SCHOOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_106 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_106">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PRESUMPSCOT RIVER (MOUTH)  - CBPRMT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_107 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_107">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-NEX SERVICE STA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_108 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_108">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-SITE 2 ORION ST LF SOUTH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_109 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_109">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-SITE 17 BLDG 95 FMR PESTHERB BLDG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_11 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_11">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HARTLAND SLUDGE LANDFILL  PHASES I AND  II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_110 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_110">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>THE GREAT ADVENTURE DAYCARE CENTER</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_111 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_111">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FLOATATION PRODUCTS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_112 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_112">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SOIL PREP INC COMPOST-SEPTAGE-SPRAY IRRIGATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_113 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_113">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BELFAST LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_114 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_114">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BREWER WATER POLLUTION CONTROL FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_115 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_115">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WALDOBORO POTW LAGOONS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_116 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_116">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LAWPCA WASTE TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_117 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_117">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DIXON - FAIRFIELD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_118 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_118">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BRUNSWICK SEWER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_119 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_119">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>EASTLAND WOOLEN MILLS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_12 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_12">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SAPPI - SD WARREN SLUDGE LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_120 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_120">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GREAT EAST LAKE - LK3922-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_121 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_121">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SHEEPSCOT POND - LK4896-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_122 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_122">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>UNITY POND - LK5172-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_123 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_123">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SANGERVILLE LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_124 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_124">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DOW AFB - FIRE TRAINING AREA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_125 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_125">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB - MACHINE GUN BORESIGHT RANGE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_126 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_126">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NCTAMS LANT DET-OU-1_FTA-DDA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_127 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_127">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LITTLE ANDROSCOGGIN RIVER - ALA346</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_128 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_128">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-FORMER BUILDINGS 7+10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_129 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_129">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-BUILDING 225 AND BUILDING 252</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_13 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_13">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ROCKLAND QUARRY LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_130 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_130">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WATERVILLE LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_131 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_131">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PARIS LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_132 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_132">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LEEDS METAL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_133 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_133">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SACO TANNERY WASTE PITS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_134 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_134">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OLD TOWN LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_135 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_135">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBUNKPORT LANDFILL - BEACHWOOD AVE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_136 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_136">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-SITE 8 PERIMETER ROAD DISPOSAL AREA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_137 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_137">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ST ALBANS LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_138 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_138">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-BLDG250 &amp; HANGER 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_139 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_139">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB - FORMER BLDG 586</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_14 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_14">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAINE METAL FINISHING &amp; LAGOONS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_140 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_140">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-BUILDING 611</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_141 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_141">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>TEXTECH INDUSTRY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_142 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_142">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CALAIS CITY LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_143 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_143">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-QUARRY SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_144 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_144">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>TOPSHAM LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_145 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_145">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SEARS ISLAND - PBSIWS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_146 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_146">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAST COVE - PQMCMC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_147 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_147">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WAYNE LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_148 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_148">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PITCHER POND - LK4848-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_149 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_149">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GREATER AUGUSTA UTILITY DISTRICT SLUDGE LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_15 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_15">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CORINNA LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_150 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_150">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GREAT POND - LK5274-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_151 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_151">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>EGYPT POND - LK5218-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_152 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_152">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PATTEN POND INLET - LK2292-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_153 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_153">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>THREEMILE WETLAND - TMW</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_154 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_154">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BALD MOUNTAIN POND - LK0314-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_155 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_155">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>QUIMBY POND - LK3526-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_156 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_156">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NAVY PIER - CBHWNP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_157 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_157">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BRUNSWICK MARE BROOK DRAINAGE - CBMBBH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_158 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_158">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PINETREE LANDFILL AND TRANSFER STATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_159 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_159">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SANDY RIVER - SRF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_16 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_16">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MADISON PAPER INDUSTRIES LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_160 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_160">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>A C LAWRENCE CO LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_161 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_161">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BOOTHBAY HARBOR SEWER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_162 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_162">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBUNK SEWER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_163 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_163">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MILWAUKEE METROPOLITAN SEWERAGE DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_164 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_164">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ESTES LAKE - LK0007</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_165 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_165">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ECO-MAINE LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_166 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_166">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ESTES LAKE-LK0007-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_167 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_167">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NUMBER ONE POND-LK3848-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_168 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_168">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MOUSAM LAKE-LK3838-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_169 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_169">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CURTIS RD-ARUNDEL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_17 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_17">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PRESQUE ISLE WWTP FIELDS - LATHROP ROAD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_170 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_170">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DOCDATA NEW ENGLAND INC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_171 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_171">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-SITE 4 ACID CAUSTIC PIT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_172 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_172">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MARSH BROOK ESTATES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_173 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_173">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OLD WOODSTOCK RD-HOULTON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_174 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_174">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FRYEBURG WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_175 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_175">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OXFORD WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_176 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_176">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CARMEL ELEMENTARY SCHOOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_177 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_177">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PRESQUE ISLE UTILITIES DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_178 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_178">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CARIBOU TRAILER PARK #2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_179 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_179">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PRINCETON ELEMENTARY SCHOOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_18 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_18">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>AIM LANDFILL BUCKSPORT  RT 15</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_180 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_180">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PRINCETON WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_181 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_181">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>TRENTON ELEMENTARY SCHOOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_182 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_182">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>STONINGTON MANOR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_183 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_183">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PIPER STREAM MOBILE HOME PARK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_184 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_184">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FARMINGTON VILLAGE CORPORATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_185 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_185">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HIDDEN VALLEY VILLAGE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_186 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_186">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>STONINGTON WATER COMPANY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_187 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_187">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BROAD COVE- PMCKBC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_188 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_188">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAINE AIR NATIONAL GUARD BIA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_189 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_189">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAINE RESOURCES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_19 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_19">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>AROOSTOOK WASTE SOLUTIONS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_190 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_190">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>STEAMSHIP NAVIGATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_191 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_191">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BATH LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_192 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_192">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAINE ARMY NATIONAL GUARD - BANGOR RANGE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_193 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_193">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>UNION CHEMICAL CO INC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_194 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_194">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LEWISTON WATER &amp; SEWER DIVISION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_195 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_195">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BANGOR WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_196 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_196">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>YORK WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_197 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_197">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GREATER AUGUSTA UTILITY DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_198 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_198">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SANFORD WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_199 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_199">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BIDDEFORD AND SACO WATER COMPANY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_2 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_2">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KATAHDIN PAPER CO DOLBY LANDFILLS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_20 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_20">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WORCESTER ASSOCIATES LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_200 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_200">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BRUNSWICK_TOPSHAM WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_201 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_201">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>AQUA ME-CAMDEN &amp; ROCKLAND</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_202 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_202">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBUNK, KENNEBUNKPORT &amp; WELLS WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_203 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_203">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_204 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_204">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KITTERY WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_205 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_205">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>AUBURN WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_206 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_206">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PORTLAND WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_207 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_207">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OAK HILL HIGH SCHOOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_208 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_208">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OLD TOWN WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_209 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_209">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WILTON WATER DEPARTMENT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_21 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_21">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LAMOINE CLOSED MUNICIPAL LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_210 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_210">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MSU 49 EDGECOMB EDDY ELEMENTARY II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_211 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_211">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BREWER WATER DEPARTMENT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_212 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_212">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>9 RIVER STREET - ROXBURY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_213 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_213">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NEFCO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_214 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_214">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DM&amp;J WASTE MANAGEMENT INC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_215 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_215">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>RUMFORD-MEXICO SEWERAGE DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_216 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_216">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>RANDALL SLUDGE SPREAD 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_217 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_217">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WILTON WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_218 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_218">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SKOWHEGAN WATER POLLUTION CONTROL FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_219 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_219">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SANFORD SEWERAGE DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_22 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_22">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BRUNSWICK LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_220 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_220">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SYNAGRO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_221 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_221">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GAUTHIER AND LIBBY SITES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_222 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_222">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LARRABEE SITE BL1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_223 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_223">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BARKER SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_224 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_224">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LINCOLN SANITARY DISTRICT COMPOSTING</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_225 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_225">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MECHANIC FALLS SANITARY DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_226 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_226">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>YARMOUTH WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_227 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_227">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-VILLAGE GREEN VENTURES - ANAEROBIC DIGESTER</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_228 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_228">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>RICHMOND UTILITIES DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_229 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_229">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NEW GLOUCESTER TOWN GARAGE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_23 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_23">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WMDSM LANDFILLS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_230 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_230">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SAPPI SOMERSET PLANT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_231 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_231">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WOODLAND PULP LLC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_232 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_232">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBUNKPORT WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_233 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_233">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FARMINGTON WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_234 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_234">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FALMOUTH WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_235 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_235">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SACO RIVER-FW08ME019-NRSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_236 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_236">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC RIVER-FW08ME026-NRSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_237 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_237">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ANDROSCOGGIN RIVER-FW08ME027-NRSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_238 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_238">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SAINT JOHN RIVER-MER9-0901-NRSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_239 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_239">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SAINT JOHN RIVER-MER9-0902-NRSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_24 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_24">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WELLS SANITARY DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_240 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_240">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>EAST BRANCH PENOBSCOT RIVER-MER9-0903-NRSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_241 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_241">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MACHIAS RIVER-MER9-0904-NRSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_242 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_242">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SACO RIVER-MER9-0905-NRSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_243 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_243">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PLEASANT RIVER-MER9-0906-NRSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_244 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_244">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC RIVER-MER9-0907-NRSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_245 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_245">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC RIVER-MER9-0908-NRSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_246 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_246">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>EAST BRANCH PENOBSCOT RIVER-MERM-1001-NRSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_247 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_247">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WHITE ROAD-BOWDOINHAM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_248 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_248">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CHRISTOPHER SITE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_249 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_249">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SEARSPORT WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_25 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_25">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LIMESTONE WATER AND SEWER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_250 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_250">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OLD TOWN POLLUTION CONTROL FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_251 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_251">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BUCKSPORT WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_252 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_252">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DYER EXCAVATION AND SEPTIC, INC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_253 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_253">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NEST &amp; SONS, INC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_254 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_254">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>INTERSTATE SEPTIC SYSTEMS, INC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_255 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_255">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MADAWASKA POLLUTION CONTROL FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_256 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_256">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC SANITARY DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_257 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_257">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>EAST END WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_258 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_258">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MCCAIN FOODS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_259 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_259">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CALAIS WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_26 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_26">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DAY FUEL SPILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_260 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_260">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WINTERPORT WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_261 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_261">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OGUNQUIT SEWER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_262 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_262">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>TIBBETTS ROAD- N-VIRO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_263 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_263">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WESTBROOK WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_264 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_264">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BLUE HILL WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_265 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_265">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NORRIDGEWOCK WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_266 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_266">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BAR HARBOR WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_267 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_267">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SPECIALTY MINERALS, INC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_268 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_268">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>AMERICARB, INC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_269 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_269">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PAT JACKSON SEPTAGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_27 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_27">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LAFB BASEWIDE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_270 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_270">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PAT JACKSON COMPOST SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_271 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_271">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GARDINER WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_272 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_272">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MOORE&apos;S SEPTIC COMPOSTING FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_273 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_273">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-SKOWHEGAN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_274 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_274">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BUZZELL ROAD-DAYTON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_275 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_275">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ALEXANDER ROAD-VAN BUREN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_276 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_276">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>VAN BUREN WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_277 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_277">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ENDICO FARM RD-MADAWASKA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_278 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_278">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NEBRA SITE 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_279 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_279">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NEBRA SITE 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_28 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_28">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FRENCHVILLE TWIN RIVERS SLUDGE LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_280 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_280">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BINGHAM WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_281 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_281">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HOULTON WATER COMPANY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_282 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_282">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WISCASSET WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_283 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_283">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BETHEL WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_284 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_284">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-MEXICO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_285 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_285">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-WELLS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_286 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_286">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-NEWPORT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_287 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_287">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>IRVING PULP AND PAPER LIMITED</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_288 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_288">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LUBEC WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_289 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_289">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MACHIAS WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_29 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_29">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CENTRAL MAINE DISPOSAL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_290 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_290">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PRESQUE ISLE WWTP FIELDS - REACH ROAD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_291 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_291">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SCARBOROUGH SANITARY DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_292 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_292">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>TWIN RIVERS PAPER-NEW BRUNSWICK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_293 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_293">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>104 JENNIFER DRIVE-AUBURN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_294 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_294">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MOUNTAIN VIEW CORRECTIONAL FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_295 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_295">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CENTRAL MAINE REGIONAL AIRPORT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_296 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_296">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-LIVERMORE FALLS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_297 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_297">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-FARMINGTON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_298 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_298">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-AUBURN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_299 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_299">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-BRUNSWICK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_3 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_3">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HATCH HILL LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_30 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_30">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BIDDEFORD LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_300 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_300">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-ROCKLAND</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_301 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_301">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-BIDDEFORD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_302 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_302">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-WESTBROOK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_303 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_303">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-FRYEBURG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_304 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_304">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-AUGUSTA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_305 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_305">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-BELFAST</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_306 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_306">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-CORINNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_307 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_307">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE--MACHIAS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_308 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_308">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-ELLSWORTH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_309 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_309">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-BANGOR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_31 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_31">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>YARMOUTH LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_310 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_310">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-HOULTON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_311 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_311">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-PRESQUE ISLE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_312 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_312">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WITHAM RD-AUBURN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_313 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_313">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LANG HILL ROAD-BROOKS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_314 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_314">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FORT FAIRFIELD UTILITIES DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_315 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_315">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GROCERY STORE-PORTLAND</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_316 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_316">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PLEASANT ST-BLUE HILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_317 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_317">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>AIRPORT RD-MACHIAS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_318 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_318">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LEIGHTON RD-POWNAL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_319 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_319">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GRINDLEVILLE RD-BLUE HILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_32 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_32">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAINE ELECTRONICS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_320 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_320">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HARDSCRABBLE ROAD-POLAND</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_321 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_321">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SACO WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_322 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_322">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>EASTPORT WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_323 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_323">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BINGHAM SOUTH ROAD-BINGHAM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_324 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_324">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GATES FORMED FIBER PRODUCTS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_325 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_325">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FREEPORT SEWER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_326 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_326">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MEXICO WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_327 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_327">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LIVERMORE FALLS WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_328 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_328">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PINE RIDGE HUNTON BROOK ASSOCIATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_329 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_329">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NORRIDGEWOCK WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_33 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_33">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FREEPORT MUNICIPAL LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_330 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_330">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LUBEC WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_331 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_331">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>THE PINES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_332 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_332">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ALFRED WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_333 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_333">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ESTES LAKE MOBILE HOME PARK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_334 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_334">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PEJEPSCOT SCHOOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_335 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_335">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CHARTER OAK MOBILE HOME PARK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_336 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_336">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PINE CONE MOBILE HOME PARK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_337 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_337">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CRYSTAL SPRING MOBILE HOME PARK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_338 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_338">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BACKNIPPEN ROAD-BUXTON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_339 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_339">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>VASSALBORO SAND SALT STORAGE BLD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_34 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_34">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DOVER-FOXCROFT LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_340 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_340">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GRAND ISLE WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_341 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_341">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>VERSO PAPER-JAY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_342 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_342">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GEORGETOWN CENTRAL SCHOOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_343 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_343">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PINELAND CENTER CAMPUS MSAD 15</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_344 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_344">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SOUTH BERWICK WATER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_345 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_345">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAINE WATER COMPANY MILLINOCKET DIVISION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_346 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_346">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CRAIG RD-PRESQUE ISLE COMPOST SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_347 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_347">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LISBON WATER DEPARTMENT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_348 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_348">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WOLFES NECK FARM FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_349 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_349">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HALFMOON STREAM - HMK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_35 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_35">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HOULTON LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_350 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_350">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HALFMOON STREAM - HMT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_351 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_351">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBUNK RIVER - KND</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_352 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_352">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ELLSWORTH WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_353 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_353">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>VALLEY VIEW SEPTIC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_354 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_354">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SMITH CONTRACTING &amp; SEPTIC TANK SERVICE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_355 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_355">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>TRUCK ACCIDENT - BELGRADE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_356 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_356">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LEBANON LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_357 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_357">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SOUTH BERWICK SEWER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_358 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_358">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>EVERGREEN RECYCLING ENTERPRISES, LLC SEPTAGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_359 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_359">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>EVERGREEN RECYCLING ENTERPRISES, LLC COMPOST SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_36 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_36">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OAKLAND LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_360 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_360">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LINCOLN SANITARY DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_361 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_361">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BELFAST WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_362 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_362">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DOVER RD-CHARLESTON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_363 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_363">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WALNUT HILL RD-NORTH YARMOUTH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_364 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_364">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>STRICKLAND LOOP ROAD-LIVERMORE FALLS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_365 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_365">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OHIO HILL RD-FAIRFIELD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_366 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_366">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SEACOAST REGIONAL AIRPORT LOT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_367 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_367">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>198 RANGE ROAD-CUMBERLAND</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_368 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_368">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BACK SEARSPORT ROAD-BELFAST</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_369 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_369">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>36 MOOSE HILL ROAD - WEST GARDINER</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_37 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_37">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WISCASSET LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_370 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_370">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NYES CORNER MYSTERY SPILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_371 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_371">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NCTAMS LANT - BUILDING 503 (FIRE STATION)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_372 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_372">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NAVAL COMMUNCIATION UNIT OIL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_373 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_373">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NCTAMS LANT AREA OF CONCERN #33</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_374 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_374">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NCTAMS LANT AREA OF CONCERN #1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_375 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_375">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CAMDEN WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_376 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_376">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MIDDLE ROAD-FAIRFIELD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_377 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_377">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>JULIA 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_378 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_378">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CHARLESTON AFS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_379 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_379">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SAMPSON_KSTD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_38 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_38">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GRAY MUNICIPAL LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_380 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_380">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KITTERY WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_381 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_381">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LIVERMORE FALLS WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_382 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_382">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WEST PERU LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_383 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_383">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ROCKLAND WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_384 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_384">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OLD ORCHARD BEACH WATER POLLUTION CONTROL FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_385 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_385">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NEWINGTON WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_386 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_386">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GINN SITE FLD 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_387 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_387">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LISBON POLLUTION CONTROL FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_388 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_388">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>VEOLIA GLOUCESTER WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_389 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_389">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>H P WOOD SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_39 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_39">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PNSY- BASEWIDE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_390 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_390">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WEEKS FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_391 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_391">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PERU LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_392 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_392">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BANGOR WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_393 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_393">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BILLERICA WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_394 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_394">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LOWELL WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_395 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_395">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PEPPERELL WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_396 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_396">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SOUTH ESSEX SEWERAGE DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_397 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_397">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CHATHAM WATER POLLUTION CONTROL FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_398 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_398">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SEABROOK NH WWTP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_399 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_399">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>YORK SEWER DISTRICT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_4 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_4">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DAVIS &amp; GLIDDEN SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_40 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_40">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LAWPCA SLUDGE LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_400 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_400">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>788 US RT1-MADAWASKA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_401 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_401">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PFAS DATA - UNCONFIRMED SOURCE FAIRFIELD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_402 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_402">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NCTAMS LANT AREA OF CONCERN #9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_403 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_403">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NCTAMS LANT AREA OF CONCERN #4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_404 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_404">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NCTAMS LANT AREA OF CONCERN #29</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_405 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_405">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MILLAY HILL ROAD-KINGFIELD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_406 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_406">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAINE WATER COMPANY HARTLAND DIVISION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_407 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_407">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAINE WATER COMPANY GREENVILLE DIVISION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_408 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_408">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAINE WATER COMPANY OAKLAND DIVISION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_409 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_409">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAINE WATER COMPANY SKOWHEGAN DIVISION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_41 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_41">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WESTBROOK LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_410 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_410">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KINGFISH MAINE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_411 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_411">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>JULIA SITE 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_412 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_412">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CROCKET SITE 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_413 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_413">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WOODWORTH SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_414 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_414">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SHORES SITE FLD 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_415 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_415">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HAPWORTH SITE FLD 1A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_416 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_416">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>1969 BANGOR ROAD - CLINTON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_417 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_417">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DOT-BURNHAM RD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_418 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_418">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MACKAY &amp; WOOD SITE 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_419 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_419">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MARTIN STREET DRUM AREA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_42 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_42">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ARUNDEL LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_420 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_420">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>RIVERSIDE GRAVEL PIT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_421 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_421">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>STREET SITES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_422 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_422">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BANGOR MUNICIPAL LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_423 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_423">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KITTERY C&amp;D SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_424 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_424">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SKOWHEGAN COMPOST SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_425 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_425">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KITTERY LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_426 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_426">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FISH BROOK - FBF - SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_427 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_427">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LITTLE ANDROSCOGGIN RIVER - LAA - SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_428 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_428">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MESSALONSKEE STREAM - MWV1 - SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_429 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_429">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MESSALONSKEE STREAM - MWV2 - SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_43 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_43">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BASF-LEWISTON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_430 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_430">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FAIRFIELD PAL POND 1 - FFPAL1 - SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_431 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_431">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FAIRFIELD PAL POND 2 - FFPAL2 - SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_432 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_432">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WOODLAND PULP LLC NO 3 LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_433 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_433">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OAKES SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_434 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_434">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BUKER SITE FLD 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_435 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_435">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>JUNIPER RIDGE LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_436 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_436">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAXWELL FARMS GORDON HILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_437 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_437">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>RANDALL SITE FLD 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_438 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_438">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PORTLAND OCEAN AVE LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_439 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_439">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KRAMER SITE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_44 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_44">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GORHAM LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_440 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_440">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>A FITZPAT SITE  HOME FARM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_441 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_441">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FN FITZPATRICK  HOME FARM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_442 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_442">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LEIGHTON RD-POWNAL FIELD 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_443 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_443">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PERKINS SITE FIELDS - ALBION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_444 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_444">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LARRABEE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_445 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_445">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HEWETT SITE H1 &amp; H4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_446 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_446">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LEAVITT SITE 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_447 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_447">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BARDEN SITE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_448 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_448">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MESERVE SITE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_449 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_449">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>GLOBAL COMPANY LOT 76 S_PORTLAND</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_45 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_45">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CUTLER RESIDENTIAL DEVELOPMENT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_450 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_450">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BACKGROUND PFAS SOIL STUDY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_451 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_451">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAINE DEP BOAT BARN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_452 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_452">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC RIVER - KHK-UP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_453 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_453">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC RIVER - KHK-DOWN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_454 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_454">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FOX SITE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_455 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_455">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HASKELL SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_456 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_456">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>STRAW SITE FLD 11 &amp; 15</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_457 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_457">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PFAS DATA - UNCONFIRMED SOURCE BOWDOINHAM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_458 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_458">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PFAS DATA - UNCONFIRMED SOURCE OGUNQUIT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_459 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_459">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CHINA DISPOSAL SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_46 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_46">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LAWPCA COMPOSTING SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_460 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_460">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HORAK FIELD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_461 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_461">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PIERSIAK SITE 1 &amp; 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_462 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_462">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PFAS DATA - UNCONFIRMED SOURCE THORNDIKE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_463 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_463">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PFAS DATA - UNCONFIRMED SOURCE UNITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_464 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_464">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>STRAW SITE FLD 5 OF 4 &amp; 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_465 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_465">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FOSS SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_466 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_466">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PFAS DATA - UNCONFIRMED SOURCE WINSLOW</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_467 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_467">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PARSONS SITE 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_468 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_468">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MT VIEW HIGH SCHOOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_469 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_469">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WASHINGTON COUNTY COMMUNITY COLLEGE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_47 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_47">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CASTINE WASTEWATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_470 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_470">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HUNTER SITE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_471 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_471">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DOORE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_472 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_472">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HAMPDEN FIRE TRAINING AREA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_473 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_473">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PFAS DATA - UNCONFIRMED SOURCE MONMOUTH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_474 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_474">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SWAIN SITES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_475 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_475">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PEARSON FIELD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_476 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_476">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>TAKACS SITE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_477 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_477">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>COLE SITE FLD 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_478 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_478">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PHIL TINY LUCAS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_479 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_479">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BRUNSWICK SEWER DIST SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_48 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_48">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>STONINGTON LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_480 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_480">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MURCH SITE FIELD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_481 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_481">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DEAVILA FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_482 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_482">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>AUTO SHINE CAR WASH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_483 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_483">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>D GREELEY SITE FIELDS 1-3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_484 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_484">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SPRINGER FARM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_485 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_485">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LUCAS SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_486 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_486">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>THREE LEVEL FARM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_487 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_487">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LITTLE DARLINGS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_488 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_488">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CHEBEAGUE ISLAND SCHOOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_489 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_489">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PFAS DATA - UNCONFIRMED SOURCE BENTON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_49 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_49">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>AUGUSTA TISSUE LLC SLUDGE LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_490 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_490">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HALL SLUDGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_491 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_491">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SHORES SITES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_492 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_492">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ELWELL SITE ELWELL FLD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_493 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_493">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PFAS DATA - UNCONFIRMED SOURCE JACKSON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_494 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_494">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>11 EAST PITTSTON RD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_495 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_495">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DUSOE FIELD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_496 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_496">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NELSON FIELD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_497 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_497">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ARNDT-JACKSON SITE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_498 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_498">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HAWES SITE K1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_499 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_499">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PFAS DATA - UNCONFIRMED SOURCE BROOKS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_5 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_5">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HAWKRIDGE COMPOST FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_50 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_50">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PNSY- OU-3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_500 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_500">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>3 STREAMS FARM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_501 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_501">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LEACH SITE AH1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_502 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_502">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MANNER SITE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_503 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_503">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PFAS DATA - UNCONFIRMED SOURCE NOBLEBORO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_504 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_504">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FALMOUTH LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_505 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_505">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>TOZIER SITE 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_506 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_506">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CUMBERLAND LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_507 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_507">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PERKINS SITE FIELDS - UNITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_508 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_508">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>REBEL HILL FARM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_509 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_509">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ALNA LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_51 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_51">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BUCKSPORT LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_510 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_510">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBUNK LANDFILL PHASE I</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_511 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_511">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>REID SITE - THORNDIKE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_512 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_512">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>AFFF SPILL - RICHMOND</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_513 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_513">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MDIFW - FAIRFIELD FOCUS AREA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_514 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_514">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CRANE BROTHERS FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_515 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_515">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PARKER SITE 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_516 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_516">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WATHEN FARMS HOME FARM FIELD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_517 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_517">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BLAINE SEPTAGE FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_518 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_518">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LEON HUTCHINSON SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_519 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_519">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HOULTON TOWN OF HIDDEN RD SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_52 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_52">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SANFORD MUNICIPAL LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_520 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_520">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MONTICELLO SEPTAGE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_521 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_521">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ST JOHN PLT SEPTAGE LANDSPREAD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_522 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_522">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FISH RIVER SEPTAGE BOARD SITE2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_523 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_523">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SHERMAN SEPTAGE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_524 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_524">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>STACYVILLE SEPTAGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_525 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_525">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ISLAND FALLS SEPTAGE SEPT DISP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_526 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_526">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FAIRFIELD MUNI LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_527 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_527">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MARTIN SITE - ST ALBANS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_528 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_528">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NARSB SEPTAGE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_529 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_529">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>QUALEY SITE FIELDS 1 2 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_53 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_53">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PATTEN POTW LAGOONS AND SPRAY IRRIGATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_530 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_530">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WALLAGRASS PLT SEPTAGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_531 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_531">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DANFORTH SEPTAGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_532 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_532">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HAYNESVILLE SEPTAGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_533 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_533">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BRIDGEWATER SEPTAGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_534 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_534">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PRESQUE ISLE WWTP FIELDS - STATE ROAD CASTLE HILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_535 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_535">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>UPPER ST JOHN SEPTAGE DISPOSAL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_536 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_536">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SITE TO DELETE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_537 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_537">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PATTEN SEPTAGE DISPOSAL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_538 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_538">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OAKFIELD ETAL SEPTAGE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_539 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_539">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CRYSTAL SEPTAGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_54 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_54">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WOOLWICH LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_540 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_540">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ST AGATHA SEPTAGE DIS SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_541 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_541">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PARADIS RD SEPTAGE DISPOSAL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_542 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_542">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FELT BROOK GOLF CENTER HOLDEN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_543 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_543">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>TOWN OF GRAND ISLE SEPTAGE SPREADING</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_544 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_544">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WASHBURN SEPTAGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_545 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_545">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PRESQUE ISLE SEPTAGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_546 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_546">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>RUGINSKI SITE FLD A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_547 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_547">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FRENCHVILLE SEPTAGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_548 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_548">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ABBOT LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_549 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_549">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>OLD EASTON SEPTAGE SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_55 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_55">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-SITE 11 FTA AND EASTERN PLUME</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_550 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_550">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BONARRIGO SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_551 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_551">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CURTIS SITE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_552 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_552">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HIGGINS SITE FIELDS-021902</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_553 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_553">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HAWES SITE L1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_554 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_554">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HAWES SITE 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_555 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_555">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DUPUIS SITE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_556 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_556">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>RUST SITE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_557 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_557">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MARTIN SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_558 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_558">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FENDERSON SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_559 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_559">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SWANS ISLAND LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_56 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_56">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-BASEWIDE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_560 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_560">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BONNY EAGLE MIDDLE SCHOOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_561 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_561">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BONNY EAGLE HIGH SCHOOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_562 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_562">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BONNY EAGLE JHS MSAD 6 ENG SWDS BUXTON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_563 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_563">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BUXTON ELEMENTARY SCHOOL ENG SWDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_564 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_564">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>EMERY SCHOOL ENG SWDS LIMINGTON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_565 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_565">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>HOLLIS CONSOLIDATED ELEMENTARY SCHOOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_566 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_566">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MARCAL PAPER - SLUDGE DUMP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_567 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_567">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MAPLETON POTW SPRAY IRRIGATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_568 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_568">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>STALEY MFG LAGOONS AND SPRAY IRRIGATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_569 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_569">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>INDIAN TWP SPRAY IRRIG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_57 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_57">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-SITES 1&amp;3 ORION ST LF NORTH AND HAZWST LF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_570 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_570">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>RANGELEY POTW SPRAY IRRIGATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_571 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_571">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CARRABASSETT VALLEY SNOWFLUENT SPRAY IRRIGATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_572 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_572">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CARLSON FARM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_573 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_573">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PRICE FIELD SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_574 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_574">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PEAKS ISLAND WATER TREATMENT FACILITY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_575 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_575">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MDI HIGH SCHOOL SPRAY SITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_576 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_576">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BIDDEFORD WWTP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_577 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_577">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DEXTER POTW LAGOONS AND SPRAY IRRIG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_578 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_578">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CORINNA SPRAY IRRIG POTW</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_579 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_579">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BERWICK SEWER DISTRICT WASTEWATER TREATMENT PLANT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_58 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_58">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-SITE 9 FMR ASH DISPOSAL LF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_580 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_580">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CAPE ELIZABETH WASTE TREATMENT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_581 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_581">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KRASKE FIELDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_582 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_582">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PINELANDS SLUDGE SPREAD SITES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_583 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_583">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ASHLAND WWTP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_584 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_584">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WASHBURN POTW LAGOON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_585 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_585">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SOUTH PORTLAND WWTF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_59 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_59">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>AROOSTOOK RIVER - ACB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_6 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_6">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>DEFENSE FUEL SUPPLY PT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_60 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_60">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ANDROSCOGGIN RIVER - AGI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_61 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_61">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ANDROSCOGGIN RIVER - ALS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_62 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_62">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ANDROSCOGGIN RIVER - ALV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_63 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_63">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ANDROSCOGGIN RIVER - ARF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_64 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_64">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ANDROSCOGGIN RIVER - ARP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_65 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_65">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>ANDROSCOGGIN RIVER - ARY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_66 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_66">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>FISH BROOK TRIBUTARY - FBT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_67 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_67">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC RIVER - KFF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_68 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_68">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC RIVER - KGD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_69 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_69">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC RIVER - KMD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_7 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_7">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LARSON CHAPMAN LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_70 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_70">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBUNK RIVER - KNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_71 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_71">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC RIVER - KNW</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_72 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_72">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENDUSKEAG STREAM - KRK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_73 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_73">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC RIVER - KSD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_74 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_74">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>KENNEBEC RIVER - KSK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_75 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_75">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>RANGELEY LAKE - LK3300-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_76 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_76">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MESSALONSKEE LAKE - LK5280-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_77 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_77">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>CHINA LAKE - LK5448-SWAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_78 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_78">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MOUSAM RIVER - MSE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_79 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_79">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>MEDUXNEKEAG RIVER LOWERY BRIDGE - MXW</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_8 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_8">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>LEWISTON LANDFILL AND TRANSFER STATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_80 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_80">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>EAST BRANCH PENOBSCOT RIVER - PBG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_81 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_81">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PENOBSCOT RIVER - PBL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_82 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_82">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PENOBSCOT RIVER - PBV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_83 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_83">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PENOBSCOT RIVER-MATTASEUNK IMPOUNDMENT - PBW</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_84 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_84">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PRESUMPSCOT RIVER - PWB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_85 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_85">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PRESUMPSCOT RIVER - PWD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_86 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_86">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SAINT CROIX RIVER - SCB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_87 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_87">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SAINT CROIX RIVER - SCW</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_88 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_88">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SALMON FALLS RIVER - SFS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_89 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_89">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SEBASTICOOK RIVER - SWL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_9 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_9">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>BLUE HILL SURRY CDD LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_90 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_90">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>NASB-OLD NAVY FUEL FARM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_91 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_91">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>VASSALBORO LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_92 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_92">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>AUBURN ASH DREDGE LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_93 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_93">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>AUBURN GRACELAWN LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_94 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_94">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>EAGLE LAKE POTW LAGOONS AND  SPRAY IRRIGATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_95 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_95">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>SINCLAIR POTW SPRAY IRRIGATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_96 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_96">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>WILTON LANDFILL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_97 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_97">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>THOMASTON POTW LAGOONS AND SPRAY IRRIGATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_98 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_98">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>PRESQUE ISLE LANDFILL AND SPRAY IRRIGATION</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fdc.nal.usda.gov/fdc/FDC_99 -->
+
+    <owl:Class rdf:about="https://fdc.nal.usda.gov/fdc/FDC_99">
+        <rdfs:subClassOf rdf:resource="https://fdc.nal.usda.gov/fdc/FDC_00010000000000000001"/>
+        <rdfs:label>TREMONT LANDFILL</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

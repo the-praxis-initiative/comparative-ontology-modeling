@@ -14,15 +14,15 @@ This step combined with the previous step is all about understanding the questio
 3. **Sub-Language Recycling**
 Identify vocabularies and patterns that may have already been generated to avoid duplication of efforts.
 4. **Meta Data Creation and Knowledge Modeling**
-Based on the questions and sub-language identified, can we create our modeling of the data? Questions to consider: how deep do I go in my modeling? What aspects are modeled in T-Box, and what’s modeled in A-Box?
+[Based on the questions and sub-language identified, can we create our modeling of the data? Questions to consider: how deep do I go in my modeling? What aspects are modeled in T-Box, and what’s modeled in A-Box?](./deliverables/PFASWaterQuality_modules.pdf)
 5. **Structured Interview**
 Use the model to retrieve data from domain experts in a FAIR way from the start.
 6. **Knowledge Acquisition Validation**
 Ensure that we can still answer the complex questions we had at the beginning..
 7. **Database Formation**<br>
-Opt for sustainable data storage and create a database backend. 
+[Opt for sustainable data storage and create a database backend.](./deliverables/graph.png)
 8. **Semi-Automated Ontology Building**<br>
-Use tools like Robot or write your own scripts for building the owl files from the database backend following a modular architecture and systematically deepening modeling outlined in KNARM.
+[Use tools like Robot or write your own scripts for building the owl files from the database backend following a modular architecture and systematically deepening modeling outlined in KNARM.](./deliverables/)
 9. **Ontology Validation**<br>
 Ultimate test for your ontology is to put it in use via applications, community, and algorithms and evaluate performance. Keep in mind that KNARM follows an agile approach and believes in improving the knowledge graphs based on community needs and changes to the vocabularies in the backend.
 

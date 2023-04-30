@@ -1,0 +1,7 @@
+LOAD CSV WITH HEADERS FROM 'file:///Book.csv' AS row
+MERGE (loc:Location {name: row.Location})
+MERGE (Chem:Chemical {name: row.Chemical})
+MERGE (cont:Content {name: row.Content})
+MERGE (loc)-[:HAS_CHEMICAL]->(Chem)
+MERGE (Chem)-[:Of_amount]->(cont)
+RETURN loc, cont, Chem
