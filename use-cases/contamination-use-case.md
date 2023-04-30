@@ -2,7 +2,7 @@
 
 ## Background
 PFAS are problematic - and they are seemingly everywhere.
-They have been widely used for their unique properties (cook ware, plastic wrap, carpeting, fire fighting foam, etc.) but are deemed a health concern to humans and animals. They are extremely long lasting, thus potentially accummulating in the environment and in water and food sources. While they have been detected in water, soil and agricultural products (e.g. grains, dairy, produce) they overall impact on the food and water supply are not yet fully known. Various national and state agencies are ramping up testing to get a better understanding of PFAS. 
+They have been widely used for their unique properties (cook ware, plastic wrap, carpeting, fire fighting foam, etc.) but are deemed a health concern to humans and animals. They are extremely long lasting and can accumulate in the environment, water, plants, animals and humans. While they have been detected in water, soil and agricultural products (e.g. grains, dairy, produce) their overall impact on food and water supplies are not yet fully known. Various national and state agencies are ramping up testing to get a better understanding of PFAS. 
 
 ## Scenario
 Let's put us in the shoes of a government agency, like EPA or a similar state agency, that is trying to get a better handle on:
