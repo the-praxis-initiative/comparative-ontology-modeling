@@ -1,4 +1,4 @@
-# Modular Ontology Modeling
+# Domain Reference Ontology Design
 
 ## Overview
 
