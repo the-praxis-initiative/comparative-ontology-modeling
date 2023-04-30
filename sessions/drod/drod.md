@@ -18,7 +18,7 @@ We will use a set of competency questions to identify and organize the key domai
 1. **Define the use case(s).**<br>
 This is already done for us: [PFAS Use Case](../../use-cases/contamination-use-case.md).
 
-2. **Define initial set of competency.**
+2. **Define initial set of competency questions.**<br>Keep them specific.
 
 3. **Identify key terms (concepts and relationships).**<br>Try to generalize them as appropriate for the domain.
 
