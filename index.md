@@ -1,4 +1,4 @@
-# Same Data, Different Model: Choosing an Ontology Modeling Methodology
+# Same Data; Different Model
 
 ## Abstract
 As knowledge graph development (and in particular the development of their schemas) grows commensurately with the importance of knowledge graphs in industry and academia, it follows that choosing a development methodology to fit the application scenario and domain is correspondingly important. We have thus organized a 3-hour, hands-on tutorial for the purposes of comparing and contrasting three distinct ontology modeling methodologies: Graphical Modular Ontology Modeling (GraphMOMo), Extreme Design for Ontology Engineering (xD), and LLM-assisted Knowledge Engineering (copilot). Attendees will have the opportunity to execute each methodology. The tutorial will culminate in a retrospective for the different sub-tutorials. 
@@ -14,3 +14,9 @@ As knowledge graph development (and in particular the development of their schem
 * Cogan Shimizu
 * Andrea Nuzzolese
 * Eva Blomqvist
+
+### Past Organizers
+* Same Data; Different Model (2023), co-located with WWW 2023
+  * Cogan Shimizu ([MOMo](./sessions/momo/momo.md))
+  * Torsten Hahmann ([DROD](./sessions/drod/drod.md))
+  * Hande McGinty Küçük ([KNARM](./sessions/knarm/knarm.md))
