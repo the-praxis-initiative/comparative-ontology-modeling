@@ -48,3 +48,5 @@ Here are some convenient links to tools, resources, and examples to use while im
 
 ### Educational Material
 * [Knowledge Acquisition and Representation Methdology (KNARM) and its Applications (KARMA)](https://scholarship.miami.edu/esploro/outputs/991031447865202976)<br>
+
+* [KNowledge Acquisition and Representation Methodology (KNARM) Tutorial](./deliverables/HandeMcGinty_KNARM_Tutorial2023.pdf)
