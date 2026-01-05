@@ -1,22 +1,47 @@
-# Same Data; Different Model
+# Same Data; Different Model (SDDM 2026)
 
 ## Abstract
-As knowledge graph development (and in particular the development of their schemas) grows commensurately with the importance of knowledge graphs in industry and academia, it follows that choosing a development methodology to fit the application scenario and domain is correspondingly important. We have thus organized a 3-hour, hands-on tutorial for the purposes of comparing and contrasting three distinct ontology modeling methodologies: Graphical Modular Ontology Modeling (GraphMOMo), Extreme Design for Ontology Engineering (xD), and LLM-assisted Knowledge Engineering (copilot). Attendees will have the opportunity to execute each methodology. The tutorial will culminate in a retrospective for the different sub-tutorials. 
+Ontologies dictate how data are related to each other, acting as the blueprint of a specific use-case. Hence, different ontology engineering methods exist to serve those use-cases. Selecting an appropriate methodology is crucial; the modeling choices we make shape what the data can express and how concepts are grouped together. Therefore, in terms of exploring said appropriate methodology, it becomes important to take a look on how the same underlying data behave when modeled through different approaches. By comparing distinct ontology engineering methods, we can observe how hierarchies form, how constraints change, and how these differences affect interpretability and knowledge organization. Therefore, we propose a half-day tutorial in order to compare and visualize the results of two modeling techniques: the Linked Open Terms (LOT) methodology and the eXtreme Design with Content Ontology Design Patterns (XD) methodology, while also investigating how an LLM falls into the process.
 
-## Schedule (3hrs)
-1. Introduction (20 minutes)
-2. [Graphical Modular Ontology Modeling](./sessions/graphical/graphical.md) (40 minutes)
-3. [Extreme Design](./sessions/xd/xd.md) (40 minutes)
-4. [AI-Assisted Knowledge Engineering](./sessions/copilot/copilot.md) (40 minutes)
-5. Comparative Analysis & Discussion (40 minutes)
+---
+
+## Schedule (3 hours)
+
+1. **Overview & Methodological Context** (20 minutes)  
+   Introduction to ontology engineering, motivation for comparative modeling, overview of LOT, XD, and BFO, and explanation of the dataset and evaluation workflow.
+
+2. **Session 1 — Linked Open Terms (LOT) + Chowlk**  
+   [Session](./sessions/lot/lot.md) (40 minutes)  
+   
+
+3. **Session 2 — eXtreme Design (XD)**  
+   [Session](./sessions/xd/xd.md) (40 minutes)  
+  
+
+4. **Break / Informal Discussion** (10 minutes)
+
+5. **Session 3 — Basic Formal Ontology (BFO)**  
+   [Session](./sessions/bfo/bfo.md) (40 minutes)  
+   
+6. **Comparative Analysis, Embeddings & Discussion** (30 minutes)  
+   Knowledge graph embeddings, dimensionality reduction (t-SNE / UMAP) visualization of results, and guided discussion of methodological trade-offs.
+
+---
 
 ## Organizers
-* Cogan Shimizu
-* Andrea Nuzzolese
-* Eva Blomqvist
+- Antrea Christou  
+- Cogan Shimizu  
+- Davide Di Pierro  
+- Danai Symeonidou  
+- Lylia Abrouk  
 
-### Past Organizers
-* Same Data; Different Model (2023), co-located with WWW 2023
-  * Cogan Shimizu ([MOMo](./sessions/momo/momo.md))
-  * Torsten Hahmann ([DROD](./sessions/drod/drod.md))
-  * Hande McGinty Küçük ([KNARM](./sessions/knarm/knarm.md))
+---
+
+## Instructors & Session Leads
+- María Poveda-Villalón — Linked Open Terms (LOT)  
+- Andrea Giovanni Nuzzolese — eXtreme Design (XD)  
+- Anna Sofia Lippolis — eXtreme Design (XD)  
+- John Beverly — Basic Formal Ontology (BFO)  
+
+---
+
