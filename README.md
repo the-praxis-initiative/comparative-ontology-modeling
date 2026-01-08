@@ -5,8 +5,8 @@ Repository for the Same Data Different Model (SDDM) tutorial hosted in the [Euro
 
 ## Repository Layout
 - `data/` — pointers to datasets used in the tutorial (e.g., PFAS)
-- `sessions/` — individual methodology-focused sessions
-- `use-cases/` — descriptions of tutorial use cases
+- `2026/sessions/` — individual methodology-focused sessions
+- `2026/use-cases/` — descriptions of tutorial use cases
 - `index.md` — front page for the tutorial
 - `README.md` — this page
 
