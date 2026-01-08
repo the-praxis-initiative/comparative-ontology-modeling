@@ -38,6 +38,9 @@ Ontologies dictate how data are related to each other, acting as the blueprint o
 ---
 
 ## Instructors & Session Leads
+- Davide Di Pierro
+   - Davide Di Pierro is a postdoc researcher at the Université de Montpellier, France. His current research interests concern Ontology Construction, Linked Data, and Linked Data applications. %Throughout his career, he also worked on graph databases, modelling OWL-compliant schemas for graph databases, automated reasoning, and software engineering for medical applications. 
+   
 - María Poveda-Villalón — Linked Open Terms (LOT) 
     - Dr. María Poveda-Villalón is an associate professor at the Artificial Intelligence Department of the Universidad Politécnica de Madrid and is also 
     part of the Ontology Engineering Group research lab. Her research activities focus on Ontological Engineering, Ontology Evaluation, Knowledge Representation, and the Semantic Web. She has contributed to the ontology engineering field by developing methodologies like Linked Open Terms and tools like OOPS! (Ontology Pitfall Scanner!) 
