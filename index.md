@@ -38,10 +38,20 @@ Ontologies dictate how data are related to each other, acting as the blueprint o
 ---
 
 ## Instructors & Session Leads
-- María Poveda-Villalón — Linked Open Terms (LOT)  
-- Andrea Giovanni Nuzzolese — eXtreme Design (XD)  
+- María Poveda-Villalón — Linked Open Terms (LOT) 
+    - Dr. María Poveda-Villalón is an associate professor at the Artificial Intelligence Department of the Universidad Politécnica de Madrid and is also 
+    part of the Ontology Engineering Group research lab. Her research activities focus on Ontological Engineering, Ontology Evaluation, Knowledge Representation, and the Semantic Web. She has contributed to the ontology engineering field by developing methodologies like Linked Open Terms and tools like OOPS! (Ontology Pitfall Scanner!) 
+    and Chowlk, which have been broadly adopted by the community. She has worked in a number of Spanish and European research projects like VICINITY, AURORAL, COGITO, BIMERR, OntoCommons, etc.
+
+- Andrea Giovanni Nuzzolese — eXtreme Design (XD) 
+   - Andrea G. Nuzzolese is a Researcher at the Semantic Technology Laboratory (STLab) of the National Research Council (CNR) in Rome, Italy. His research interests concern Knowledge Extraction, Ontology Design Patterns, Linked Data, and the Semantic Web. He has been a researcher in the EU funded projects IKS% (Interactive Knowledge Stack), HACID (Hybrid Human Artificial Collective Intelligence in Open-Ended Domains), and WHOW (Water Health Open knoWledge), and the main developer of Apache Stanbol software stack, which provides a set of reusable components for semantic content management.
+
 - Anna Sofia Lippolis — eXtreme Design (XD)  
+   - Anna Sofia Lippolis is a PhD candidate at the University of Bologna, Italy, and is affiliated with the CNR Institute for Cognitive Sciences and Technologies. Her research interests span from the investigation of LLMs for ontology engineering-related tasks to cultural analytics and the more philosophical side of computational linguistics. She has been involved in the %EU funded 
+    WHOW project.  
+
 - John Beverly — Basic Formal Ontology (BFO)  
+   - He is presently an Assistant Professor at the University at Buffalo and Co-Director of the National Center for Ontological Research. Throughout his research, he has worked with numerous groups on curating, creating, and applying knowledge representation artifacts to address semantic interoperability challenges. His work has supported efforts to identify vaccine and drug treatment options for COVID-19, update the widely used Infectious Disease Ontology, develop the Virus Disease Ontology extension, and create the Coronavirus Infectious Disease Ontology that extends from it. He has also worked extensively on Basic Formal Ontology (ISO/IEC 21838-2), which is used in the Open Biological and Biomedical Ontologies, the Industrial Ontologies Foundry, and the Common Core Ontologies suite. His ontology research both informs and is informed by his work in natural language semantics, analyses of epistemic injustices arising in healthcare settings, and narrative themes for meaning-making near the end of life.
 
 ---
 
