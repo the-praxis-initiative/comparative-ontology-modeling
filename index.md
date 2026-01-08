@@ -1,22 +1,57 @@
-# Same Data; Different Model
+# Same Data; Different Model (SDDM 2026)
 
 ## Abstract
-As knowledge graph development (and in particular the development of their schemas) grows commensurately with the importance of knowledge graphs in industry and academia, it follows that choosing a development methodology to fit the application scenario and domain is correspondingly important. We have thus organized a 3-hour, hands-on tutorial for the purposes of comparing and contrasting three distinct ontology modeling methodologies: Graphical Modular Ontology Modeling (GraphMOMo), Extreme Design for Ontology Engineering (xD), and LLM-assisted Knowledge Engineering (copilot). Attendees will have the opportunity to execute each methodology. The tutorial will culminate in a retrospective for the different sub-tutorials. 
+Ontologies dictate how data are related to each other, acting as the blueprint of a specific use-case. Hence, different ontology engineering methods exist to serve those use-cases. Selecting an appropriate methodology is crucial; the modeling choices we make shape what the data can express and how concepts are grouped together. Therefore, in terms of exploring said appropriate methodology, it becomes important to take a look on how the same underlying data behave when modeled through different approaches. By comparing distinct ontology engineering methods, we can observe how hierarchies form, how constraints change, and how these differences affect interpretability and knowledge organization. Therefore, we propose a half-day tutorial in order to compare and visualize the results of two modeling techniques: the Linked Open Terms (LOT) methodology and the eXtreme Design with Content Ontology Design Patterns (XD) methodology, while also investigating how an LLM falls into the process.
 
-## Schedule (3hrs)
-1. Introduction (20 minutes)
-2. [Graphical Modular Ontology Modeling](./sessions/graphical/graphical.md) (40 minutes)
-3. [Extreme Design](./sessions/xd/xd.md) (40 minutes)
-4. [AI-Assisted Knowledge Engineering](./sessions/copilot/copilot.md) (40 minutes)
-5. Comparative Analysis & Discussion (40 minutes)
+---
+
+## Schedule (3 hours)
+
+1. **Overview & Methodological Context** (20 minutes)  
+   Introduction to ontology engineering, motivation for comparative modeling, overview of LOT, XD, and BFO, and explanation of the dataset and evaluation workflow.
+
+2. **Session 1 — Linked Open Terms (LOT) + Chowlk**  
+   [Session](./sessions/lot/lot.md) (40 minutes)  
+   
+
+3. **Session 2 — eXtreme Design (XD)**  
+   [Session](./sessions/xd/xd.md) (40 minutes)  
+  
+
+4. **Break / Informal Discussion** (10 minutes)
+
+5. **Session 3 — Basic Formal Ontology (BFO)**  
+   [Session](./sessions/bfo/bfo.md) (40 minutes)  
+   
+6. **Comparative Analysis, Embeddings & Discussion** (30 minutes)  
+   Knowledge graph embeddings, dimensionality reduction (t-SNE / UMAP) visualization of results, and guided discussion of methodological trade-offs.
+
+---
 
 ## Organizers
-* Cogan Shimizu
-* Andrea Nuzzolese
-* Eva Blomqvist
+- Antrea Christou  
+- Cogan Shimizu  
+- Davide Di Pierro  
+- Danai Symeonidou  
+- Lylia Abrouk  
 
-### Past Organizers
-* Same Data; Different Model (2023), co-located with WWW 2023
-  * Cogan Shimizu ([MOMo](./sessions/momo/momo.md))
-  * Torsten Hahmann ([DROD](./sessions/drod/drod.md))
-  * Hande McGinty Küçük ([KNARM](./sessions/knarm/knarm.md))
+---
+
+## Instructors & Session Leads
+- María Poveda-Villalón — Linked Open Terms (LOT) 
+    - Dr. María Poveda-Villalón is an associate professor at the Artificial Intelligence Department of the Universidad Politécnica de Madrid and is also 
+    part of the Ontology Engineering Group research lab. Her research activities focus on Ontological Engineering, Ontology Evaluation, Knowledge Representation, and the Semantic Web. She has contributed to the ontology engineering field by developing methodologies like Linked Open Terms and tools like OOPS! (Ontology Pitfall Scanner!) 
+    and Chowlk, which have been broadly adopted by the community. She has worked in a number of Spanish and European research projects like VICINITY, AURORAL, COGITO, BIMERR, OntoCommons, etc.
+
+- Andrea Giovanni Nuzzolese — eXtreme Design (XD) 
+   - Andrea G. Nuzzolese is a Researcher at the Semantic Technology Laboratory (STLab) of the National Research Council (CNR) in Rome, Italy. His research interests concern Knowledge Extraction, Ontology Design Patterns, Linked Data, and the Semantic Web. He has been a researcher in the EU funded projects IKS% (Interactive Knowledge Stack), HACID (Hybrid Human Artificial Collective Intelligence in Open-Ended Domains), and WHOW (Water Health Open knoWledge), and the main developer of Apache Stanbol software stack, which provides a set of reusable components for semantic content management.
+
+- Anna Sofia Lippolis — eXtreme Design (XD)  
+   - Anna Sofia Lippolis is a PhD candidate at the University of Bologna, Italy, and is affiliated with the CNR Institute for Cognitive Sciences and Technologies. Her research interests span from the investigation of LLMs for ontology engineering-related tasks to cultural analytics and the more philosophical side of computational linguistics. She has been involved in the %EU funded 
+    WHOW project.  
+
+- John Beverly — Basic Formal Ontology (BFO)  
+   - He is presently an Assistant Professor at the University at Buffalo and Co-Director of the National Center for Ontological Research. Throughout his research, he has worked with numerous groups on curating, creating, and applying knowledge representation artifacts to address semantic interoperability challenges. His work has supported efforts to identify vaccine and drug treatment options for COVID-19, update the widely used Infectious Disease Ontology, develop the Virus Disease Ontology extension, and create the Coronavirus Infectious Disease Ontology that extends from it. He has also worked extensively on Basic Formal Ontology (ISO/IEC 21838-2), which is used in the Open Biological and Biomedical Ontologies, the Industrial Ontologies Foundry, and the Common Core Ontologies suite. His ontology research both informs and is informed by his work in natural language semantics, analyses of epistemic injustices arising in healthcare settings, and narrative themes for meaning-making near the end of life.
+
+---
+
