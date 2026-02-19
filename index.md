@@ -39,7 +39,7 @@ Ontologies dictate how data are related to each other, acting as the blueprint o
 
 ## Instructors & Session Leads
 - Davide Di Pierro
-   - Davide Di Pierro is a postdoc researcher at the Université de Montpellier, France. His current research interests concern Ontology Construction, Linked Data, and Linked Data applications. %Throughout his career, he also worked on graph databases, modelling OWL-compliant schemas for graph databases, automated reasoning, and software engineering for medical applications. 
+   - Davide Di Pierro is a postdoc researcher at the Université de Montpellier, France. His current research interests concern Ontology Construction, Linked Data, and Linked Data applications. Throughout his career, he also worked on graph databases, modelling OWL-compliant schemas for graph databases, automated reasoning, and software engineering for medical applications. 
    
 - María Poveda-Villalón — Linked Open Terms (LOT) 
     - Dr. María Poveda-Villalón is an associate professor at the Artificial Intelligence Department of the Universidad Politécnica de Madrid and is also 
@@ -53,8 +53,8 @@ Ontologies dictate how data are related to each other, acting as the blueprint o
    - Anna Sofia Lippolis is a PhD candidate at the University of Bologna, Italy, and is affiliated with the CNR Institute for Cognitive Sciences and Technologies. Her research interests span from the investigation of LLMs for ontology engineering-related tasks to cultural analytics and the more philosophical side of computational linguistics. She has been involved in the %EU funded 
     WHOW project.  
 
-- John Beverly — Basic Formal Ontology (BFO)  
-   - He is presently an Assistant Professor at the University at Buffalo and Co-Director of the National Center for Ontological Research. Throughout his research, he has worked with numerous groups on curating, creating, and applying knowledge representation artifacts to address semantic interoperability challenges. His work has supported efforts to identify vaccine and drug treatment options for COVID-19, update the widely used Infectious Disease Ontology, develop the Virus Disease Ontology extension, and create the Coronavirus Infectious Disease Ontology that extends from it. He has also worked extensively on Basic Formal Ontology (ISO/IEC 21838-2), which is used in the Open Biological and Biomedical Ontologies, the Industrial Ontologies Foundry, and the Common Core Ontologies suite. His ontology research both informs and is informed by his work in natural language semantics, analyses of epistemic injustices arising in healthcare settings, and narrative themes for meaning-making near the end of life.
+- John Beverley — Basic Formal Ontology (BFO)  
+   - John Beverley is presently an Assistant Professor at the University at Buffalo and Co-Director of the National Center for Ontological Research. Throughout his research, he has worked with numerous groups on curating, creating, and applying knowledge representation artifacts to address semantic interoperability challenges. His work has supported efforts to identify vaccine and drug treatment options for COVID-19, update the widely used Infectious Disease Ontology, develop the Virus Disease Ontology extension, and create the Coronavirus Infectious Disease Ontology that extends from it. He has also worked extensively on Basic Formal Ontology (ISO/IEC 21838-2), which is used in the Open Biological and Biomedical Ontologies, the Industrial Ontologies Foundry, and the Common Core Ontologies suite. His ontology research both informs and is informed by his work in natural language semantics, analyses of epistemic injustices arising in healthcare settings, and narrative themes for meaning-making near the end of life.
 
 ---
 
