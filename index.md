@@ -10,21 +10,26 @@ Ontologies dictate how data are related to each other, acting as the blueprint o
 1. **Overview & Methodological Context** (20 minutes)  
    Introduction to ontology engineering, motivation for comparative modeling, overview of LOT, XD, and BFO, and explanation of the dataset and evaluation workflow.
 
-2. **Session 1 — Linked Open Terms (LOT) + Chowlk**  
+2. **Session 1 — Linked Open Terms (LOT) + Chowlk** [^1]
+
    [Session](./sessions/lot/lot.md) (40 minutes)  
    
 
-3. **Session 2 — eXtreme Design (XD)**  
-   [Session](./sessions/xd/xd.md) (40 minutes)  
-  
-
-4. **Break / Informal Discussion** (10 minutes)
-
-5. **Session 3 — Basic Formal Ontology (BFO)**  
+3. **Session 2 — Basic Formal Ontology (BFO)** 
+   
    [Session](./sessions/bfo/bfo.md) (40 minutes)  
+
+
+4. **Coffee Break / Informal Discussion** (30 minutes)
+
+
+5. **Session 3 — eXtreme Design (XD)**    
+
+   [Session](./sessions/xd/xd.md) (60 minutes)  
+  
    
 6. **Comparative Analysis, Embeddings & Discussion** (30 minutes)  
-   Knowledge graph embeddings, dimensionality reduction (t-SNE / UMAP) visualization of results, and guided discussion of methodological trade-offs.
+   Discussion on KGE construction and dimensionality reduction for visuals of the results. Closing remarks and takeaways.
 
 ---
 
@@ -58,3 +63,4 @@ Ontologies dictate how data are related to each other, acting as the blueprint o
 
 ---
 
+[^1]: This work was supported by the grant "SOEL: Supporting Ontology Engineering with Large Language Models''  PID2023-152703NA-I00 funded by MCIN/AEI/10.13039/501100011033 and by “ERDF/UE”. 
