@@ -12,7 +12,7 @@ Ontologies dictate how data are related to each other, acting as the blueprint o
 
 2. **Session 1 — Linked Open Terms (LOT) + Chowlk** [^1]
 
-   [Session](./sessions/lot/lot.md) (40 minutes)  
+   [Session](./sessions/LOT/) (40 minutes)  
    
 
 3. **Session 2 — Basic Formal Ontology (BFO)** 
