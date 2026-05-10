@@ -1,0 +1,131 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <https://w3id.org/def/sddm#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix saref: <https://saref.etsi.org/core/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dcterms:created a owl:AnnotationProperty .
+
+dcterms:creator a owl:AnnotationProperty .
+
+dcterms:description a owl:AnnotationProperty .
+
+dcterms:license a owl:AnnotationProperty .
+
+dcterms:title a owl:AnnotationProperty .
+
+vann:preferredNamespacePrefix a owl:AnnotationProperty .
+
+vann:preferredNamespaceUri a owl:AnnotationProperty .
+
+owl:versionInfo a owl:AnnotationProperty .
+
+saref:hasResult a owl:DatatypeProperty ;
+    rdfs:label "has result" .
+
+saref:observes a owl:ObjectProperty ;
+    rdfs:label "observes" .
+
+ns:Parameter a owl:Class ;
+    rdfs:label "Parameter" ;
+    rdfs:subClassOf saref:FeatureOfInterest .
+
+ns:date a owl:DatatypeProperty ;
+    rdfs:label "date" ;
+    rdfs:range xsd:date .
+
+ns:hasLabQualifier a owl:ObjectProperty ;
+    rdfs:label "has lab qualifier" ;
+    rdfs:domain ns:Result ;
+    rdfs:range ns:LabQualifier .
+
+ns:locatedWithin a owl:ObjectProperty ;
+    rdfs:label "located within" ;
+    rdfs:domain ns:Site ;
+    rdfs:range ns:City .
+
+ns:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:range xsd:string .
+
+ns:samplePointSequence a owl:DatatypeProperty ;
+    rdfs:label "sample point sequence" ;
+    rdfs:domain ns:Sample ;
+    rdfs:range xsd:string .
+
+saref:FeatureOfInterest a owl:Class ;
+    rdfs:label "Feature Of Interest" .
+
+saref:Observation a owl:Class ;
+    rdfs:label "Observation" .
+
+saref:UnitOfMeasure a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "Unit Of Measure",
+        "unit of measure" ;
+    rdfs:range saref:UnitOfMeasure .
+
+ns: a owl:Ontology ;
+    dcterms:created "2026-05-08"^^xsd:date ;
+    dcterms:creator "María Poveda" ;
+    dcterms:description "The PFAS model for SDDM tutorial."@en ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:title "SDDM tutorial ontology"@en ;
+    vann:preferredNamespacePrefix "sddm" ;
+    vann:preferredNamespaceUri ns: ;
+    owl:versionInfo "0.0.1" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+ns:City a owl:Class ;
+    rdfs:label "City" ;
+    rdfs:subClassOf ns:GeographicAdministrativeEntity .
+
+ns:GeographicAdministrativeEntity a owl:Class ;
+    rdfs:label "Geographic Administrative Entity" .
+
+ns:LabQualifier a owl:Class ;
+    rdfs:label "Lab Qualifier" .
+
+ns:hasSampleType a owl:ObjectProperty ;
+    rdfs:label "has sample type" ;
+    rdfs:domain ns:Sample ;
+    rdfs:range ns:SampleType .
+
+ns:includesMeasurement a owl:ObjectProperty ;
+    rdfs:label "includes measurement" ;
+    rdfs:domain ns:Sample ;
+    rdfs:range ns:Result .
+
+ns:takenAtSite a owl:ObjectProperty ;
+    rdfs:label "taken at site" ;
+    rdfs:domain ns:Sample ;
+    rdfs:range ns:Site .
+
+ns:SampleType a owl:Class ;
+    rdfs:label "Sample Type" .
+
+ns:Result a owl:Class ;
+    rdfs:label "Result" ;
+    rdfs:subClassOf saref:Observation .
+
+ns:Site a owl:Class ;
+    rdfs:label "Site" .
+
+ns:Sample a owl:Class ;
+    rdfs:label "Sample" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onClass ns:Site ;
+            owl:onProperty ns:takenAtSite ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass ns:Result ;
+            owl:onProperty ns:includesMeasurement ],
+        [ a owl:Restriction ;
+            owl:onClass ns:SampleType ;
+            owl:onProperty ns:hasSampleType ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ] .
+
