@@ -64,3 +64,7 @@ Ontologies dictate how data are related to each other, acting as the blueprint o
 ---
 
 [^1]: This work was supported by the grant "SOEL: Supporting Ontology Engineering with Large Language Models''  PID2023-152703NA-I00 funded by MCIN/AEI/10.13039/501100011033 and by “ERDF/UE”. 
+
+## Slides
+
+Slides used in our tutorial are linked [here.](SDDM%202026.pdf)
